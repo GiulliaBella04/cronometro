@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('img/download.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin: 4% auto;
+}
+#tempo{
+    color: #fff;
+    font-size: 3rem;
+    padding: 30px;
+}
+#start,#reset,#pause{
+    width: 25%;
+    height: 50px;
+    margin-bottom: 15px;
+    margin-left: 4px;
+}
